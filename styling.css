@@ -27,7 +27,7 @@ header {
     border-radius: 2%;
     border-width: 2px;
     border-color: black;
-    background-color: green;
+    background-color: rgb(3, 224, 3);
     border: solid;
 
 }
@@ -54,18 +54,19 @@ nav {
 
 article {
   flex: 3;
-  background: rgb(156, 178, 165);
+  background: rgb(248, 248, 248);
   flex-grow: 3;
   overflow: auto;
 }
 /* changed article color to make contrast fit wcag */
 
 article div {
-    background-color: darkkhaki;
+    background-color: rgb(243, 235, 128);
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: column;
+    border:1px solid black;
     margin-bottom: 7.5%;
 }
 
@@ -117,7 +118,6 @@ aside {
     font-size: 20px;
     color: white;
     cursor: pointer;
-    border-style: none;
   }
   
   #popUpBox{
